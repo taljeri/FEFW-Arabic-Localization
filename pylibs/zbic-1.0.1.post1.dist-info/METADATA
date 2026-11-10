@@ -1,0 +1,46 @@
+Metadata-Version: 2.4
+Name: zbic
+Version: 1.0.1.post1
+Summary: ZBIC compression algorithm of Nintendo Switch.
+Home-page: https://github.com/kinnay/zbic
+Author: Yannik Marchand
+Author-email: ymarchand@me.com
+License: GPLv2
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: author
+Dynamic: author-email
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license
+Dynamic: license-file
+Dynamic: summary
+
+## ZBIC
+
+This project provides a Python package that supports compression and decompression of the ZBIC algorithm that was first seen on the Nintendo Switch in version 22.0.0.
+
+The `zstd.c`, `zstd.h` and `zstd_errors.h` files in this repository were copied from [Atmosphere-NX](https://github.com/Atmosphere-NX/Atmosphere).
+
+### Installation
+The package can be installed with pip: `pip3 install zbic`.
+
+### API reference
+```python
+def compress(data: bytes, level: int = 3) -> bytes: ...
+def decompress(data: bytes) -> bytes: ...
+```
+
+### Example usage
+```python
+import zbic
+
+data = b"Hello World!"
+compressed = zbic.compress(data)
+decompressed = zbic.decompress(compressed)
+assert data == decompressed
+```
+
+### Source code
+https://github.com/kinnay/zbic

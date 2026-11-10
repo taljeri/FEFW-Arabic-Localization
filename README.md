@@ -101,5 +101,5 @@ This repository provides a complete, literary Classical Arabic localization and 
 
 - **Non-Commercial Fan Project:** This project is a non-profit, volunteer fan translation intended solely for linguistic accessibility and educational purposes.
 - **Trademarks & Copyrights:** *Fire Emblem* and related properties are trademarks and copyrights of **Nintendo / Intelligent Systems**.
-- **No Piracy:** This repository does not contain, host, or distribute proprietary game ROMs, ISOs, executables, or copyrighted game dumps. A legally purchased retail copy of the game is required to use this LayeredFS modification.
+- **Original Software Requirement:** This repository does not contain or distribute proprietary game ROMs, ISOs, or base game executables. An official copy of the original software is required to use this modification.
 - **License:** The scripts, translation memories, and toolchain in this repository are released under the [MIT License](LICENSE).
